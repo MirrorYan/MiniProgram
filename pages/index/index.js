@@ -6,15 +6,22 @@ const today = handleDate()
 Page({
   /* Init data of Page */
   data: {
-    saleInfo: {},
-    purcInfo: {},
-    stokeInfo: {},
     backInfo: {},
     salLoad: true,
     pucLoad: true,
     stoLoad: true,
     bacLoad: true,
-    dates: [today, today]
+    dates: [today, today],
+    infoLst: [
+      {
+        name: '',
+        url: '/images/sale.svg',
+        datas: []
+      }, {
+        url: '/images/purchase.svg',
+        datas: []
+      }
+    ]
   },
   pageLoad: function () {
     let that = this,

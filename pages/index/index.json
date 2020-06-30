@@ -1,6 +1,7 @@
 {
   "enablePullDownRefresh": true,
   "usingComponents": {
-    "datepicker": "/components/datepicker/datepicker"
+    "datepicker": "/components/datepicker/datepicker",
+    "info-card": "/components/cardImgInfo/cardImgInfo"
   }
 }

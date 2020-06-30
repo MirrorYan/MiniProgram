@@ -1,0 +1,14 @@
+<!-- Card Component width Images and Infomations -->
+<view class="product-info">
+  <view class="product-left">
+    <image class="block-icon" src="{{imgURL}}" />
+  </view>
+  <view class="product-right">
+    <view
+      wx:for="{{infos}}"
+      wx:for-item="info"
+      wx:for-index="index"
+      wx:key="index"
+    >{{info.title}}：{{info.value}}</view>
+  </view>
+</view>

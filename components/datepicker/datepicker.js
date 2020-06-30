@@ -5,10 +5,6 @@ import { judgeDate, handleDate } from '../../utils/util'
 let today = handleDate()
 
 Component({
-  /* Properties */
-  properties: {
-
-  },
   /* Init data */
   data: {
     start: today,
